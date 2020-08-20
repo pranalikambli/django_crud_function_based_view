@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block title %}
+Create Book
+{% endblock %}
+{% block content %}
+<h1>Create Book</h1>
+<form class="" method="post" novalidate>
+  {% csrf_token %}
+  {% for field in form.visible_fields %}
+    <div class="form-group">
+        <label for="{{ field.id_for_label }}">{{field.label}}</label>
+        {{field}}
+        {% for error in field.errors %}
+            <span class="help-block" style="color:red">{{error}}</span>
+        {% endfor %}
+    </div>
+  {% endfor %}
+    <div>
+        <input type="submit" name="" value="Submit" class="btn btn-success ">
+        <a href="{% url 'home' %}" class="btn btn-default">Cancel</a>
+    </div>
+</form>
+{% endblock %}
