@@ -1,4 +1,4 @@
-# django_crud_function_based_view
+# Django Crud Function Based View
 django_crud_function_based_view is a Python-Django based CMS application where you can create (List View, Create View, Detail View, Update View and Delete View) for blogs.
 
 # Installation
