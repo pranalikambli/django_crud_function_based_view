@@ -1,5 +1,5 @@
 # Django Crud Function Based View
-django_crud_function_based_view is a Python-Django based CMS application where you can create (List View, Create View, Detail View, Update View and Delete View) for blogs.
+Django Crud Function Based View is a Python-Django based Book Library application where you can create (List View, Create View, Update View and Delete View Functions) for books.
 
 # Installation
 
