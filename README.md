@@ -29,7 +29,7 @@ python manage.py makemigrations app
 ```bash
 python manage.py migrate
 ```
-#Running the Project Locally
+# Running the Project Locally
 ```bash
 python manage.py runserver 
 ```
