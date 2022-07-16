@@ -21,7 +21,7 @@
     {% if context %}
         {% for each in context %}
             <tr>
-              <th scope="row">1</th>
+              <th scope="row">{{ forloop.counter }}</th>
               <td>{{ each.name }}</td>
               <td>{{ each.category | capfirst  }}</td>
               <td>{{ each.author | capfirst  }}</td>
